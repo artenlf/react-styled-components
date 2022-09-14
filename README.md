@@ -38,4 +38,6 @@ Também fizemos a estilização de uma tag span utilizando uma classe tradiciona
 
 Aula 11: criamos um componente para filtrar qual icone iria aparecer para cada tipo de gasto exibido no extrato. Para isso criamos o ImageFilter.js e utilizamos um objeto para indicar cada tipo.
 
-Aula 12: implementamos a feature de tema claro/escuro. Setando as cores no componente de variaveis e depois importando dentro de um novo componente temas.js, responsável por redistribuir as propriedades para outros componentes da nossa aplicação.
+Aula 12: implementamos a feature de tema claro/escuro. Setando as cores no componente de variaveis e depois importando dentro de um novo componente temas.js, responsável por redistribuir as propriedades para outros componentes da nossa aplicação. Utilizamos aqui o hook de ThemeProvider, para fazer com que nosso tema seja aplicado, precisaremos dele para que a a propriedade theme seja reconhecida e corretamente atribuída a aplicação.
+
+Aula 13: fizemos o componente do botão de switch para alternar entre os temas e exportamos ele para o App.js, criando também um useState para poder aplicar a função de alternar entre os temas.
