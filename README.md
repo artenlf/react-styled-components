@@ -19,3 +19,5 @@ Aula 6: refatorando alguns componentes, como o Container. Nesse caso, fizemos a 
 Na pasta UI criamos o index.js, arquivo que compreende estilizações para componentes comuns a todo o projeto. Utilizando o atalho ctrl+shift+f procuramos por onde o seletor imagem-icone era utilizado e substituímos pelo nosso componente estilizado.
 
 Aula 7: quando há aplicação de um estilo inline para um elemento específico da página, podemos criar um novo componente de estilo específico para poder lidar com essa melhoria, trabalhando com a herança do estilo do nosso componente original. Na síntaxe ao ficaria algo como: const IconeMargin = styled(Icone)``.
+
+Aula 8: trabalhando com responsividade através de media-queries. Passamos as propriedades de @media dentro do template literals. Com isso, eliminamos o arquivo de style.css e agora temos todos os estilos em componentes.
