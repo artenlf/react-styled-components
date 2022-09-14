@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { ThemeConsumer } from "styled-components";
+import styled from "styled-components";
 
 import Titulo from "../Titulo";
 import Conta from "../Conta";
