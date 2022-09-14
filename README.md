@@ -31,3 +31,7 @@ Isso porque, caso um componente seja declarado dentro do método render ou dentr
 Ler mais em: https://styled-components.com/docs/basics#define-styled-components-outside-of-the-render-method
 
 Aula 9: criamos um novo componente de renderização, o Extrato. Ele fica dentro de um Box e utiliza informações da info.js para exibir na dela os dados de um usuário do banco.
+
+Aula 10: criamos 2 novos componentes para poder armazenar e fazer a exibição dos dados de consumo, utilizando as props dentro do componente Item na árvore de renderização do componente Itens, que depois é chamado na árvore de renderização da nosso Extrato.
+
+Também fizemos a estilização de uma tag span utilizando uma classe tradicional do CSS, dentro do template literals do style component Item.
