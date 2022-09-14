@@ -21,3 +21,13 @@ Na pasta UI criamos o index.js, arquivo que compreende estilizações para compo
 Aula 7: quando há aplicação de um estilo inline para um elemento específico da página, podemos criar um novo componente de estilo específico para poder lidar com essa melhoria, trabalhando com a herança do estilo do nosso componente original. Na síntaxe ao ficaria algo como: const IconeMargin = styled(Icone)``.
 
 Aula 8: trabalhando com responsividade através de media-queries. Passamos as propriedades de @media dentro do template literals. Com isso, eliminamos o arquivo de style.css e agora temos todos os estilos em componentes.
+
+Dica: Sempre que possível devemos evitar colocarmos a declaração de componentes dentro do método render dentro de componente baseados em classes e no caso de componentes funcionais não devemos declarar um componente dentro do outro.
+
+Isso porque, caso um componente seja declarado dentro do método render ou dentro de um outro componente funcional ele será re-declarado a cada nova renderização e o React não conseguirá fazer cache desse componente, o que pode atrasar e muito a renderização da página.
+
+É uma boa prática declarar componentes e styled components fora dos métodos de renderização do React.
+
+Ler mais em: https://styled-components.com/docs/basics#define-styled-components-outside-of-the-render-method
+
+Aula 9: criamos um novo componente de renderização, o Extrato. Ele fica dentro de um Box e utiliza informações da info.js para exibir na dela os dados de um usuário do banco.
