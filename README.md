@@ -35,3 +35,5 @@ Aula 9: criamos um novo componente de renderização, o Extrato. Ele fica dentro
 Aula 10: criamos 2 novos componentes para poder armazenar e fazer a exibição dos dados de consumo, utilizando as props dentro do componente Item na árvore de renderização do componente Itens, que depois é chamado na árvore de renderização da nosso Extrato.
 
 Também fizemos a estilização de uma tag span utilizando uma classe tradicional do CSS, dentro do template literals do style component Item.
+
+Aula 11: criamos um componente para filtrar qual icone iria aparecer para cada tipo de gasto exibido no extrato. Para isso criamos o ImageFilter.js e utilizamos um objeto para indicar cada tipo.
