@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Item from "../../Item";
+import ImageFilter from "../ImageFilter";
 
 const Itens = styled.div`
   align-items: center;
@@ -17,6 +18,7 @@ const Itens = styled.div`
 export default (props) => {
   return (
     <Itens>
+      {ImageFilter(props.type)}
       <Item {...props} />
       <span>{props.date}</span>
     </Itens>
